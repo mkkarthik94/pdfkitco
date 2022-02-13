@@ -1,0 +1,45 @@
+{
+  "name": "pdf-converter-generator",
+  "version": "0.0.1",
+  "description": "Backend for PDF Converter/Generator Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingshuk-Deb/PDF-Converter-Generator.git"
+  },
+  "author": "Kingshuk-Deb",
+  "license": "ISC",
+  "dependencies": {
+    "@shwao/express-fingerprint": "^2.0.0",
+    "aws-sdk": "^2.1066.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "iso-3166-country-list": "^0.1.0",
+    "multer-s3": "^2.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "puppeteer": "^13.0.1",
+    "shortid": "^2.2.16",
+    "stripe": "^8.201.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Kingshuk-Deb/PDF-Converter-Generator/issues"
+  },
+  "homepage": "https://github.com/Kingshuk-Deb/PDF-Converter-Generator#readme",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "8.1.4"
+  }
+}
